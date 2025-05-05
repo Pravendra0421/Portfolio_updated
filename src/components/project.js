@@ -9,35 +9,35 @@ const project = [
     Img: taskTalk,
     Title: "Task-Talk",
     Description: "",
-    Link: "",
+    ProjectLink: "",
     id: "1"
   },
   {
     Img: myshopmanager,
     Title: "My-Shop-Manager",
     Description: "",
-    Link: "https://myshopmanager.onrender.com",
+    ProjectLink: "https://myshopmanager.onrender.com",
     id: "2"
   },
   {
     Img: Eztech,
     Title: "EZTech",
     Description: "",
-    Link: "https://www.eztech.in/",
+    ProjectLink: "https://www.eztech.in/",
     id: "3"
   },
   {
     Img: socialMedia,
     Title: "SocialMedia",
     Description: "",
-    Link: "https://socialmedia-2-0oo5.onrender.com/",
+    ProjectLink: "https://socialmedia-2-0oo5.onrender.com/",
     id: "4"
   },
   {
     Img: EzChat,
     Title: "EZChat",
     Description: "",
-    Link: "https://ezchat.com.ru/auth",
+    ProjectLink: "https://ezchat.com.ru/auth",
     id: "5"
   }
 ];

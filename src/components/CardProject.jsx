@@ -64,14 +64,14 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
      
 
               {id ? (
-                <Link
-                  to={`/project/${id}`}
+                <a
+                  href={ProjectLink || "#"}
                   onClick={handleDetails}
                   className="inline-flex items-center space-x-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-white/90 transition-all duration-200 hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-purple-500/50"
                 >
                   <span className="text-sm font-medium">Details</span>
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </a>
               ) : (
                 <span className="text-gray-500 text-sm">Details Not Available</span>
               )}
