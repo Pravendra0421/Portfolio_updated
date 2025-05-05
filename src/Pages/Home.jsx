@@ -169,7 +169,6 @@ const Home = () => {
               <div className="space-y-4 sm:space-y-6">
                 <StatusBadge />
                 <MainTitle />
-
                 {/* Typing Effect */}
                 <div className="h-8 flex items-center" data-aos="fade-up" data-aos-delay="800">
                   <span className="text-xl md:text-2xl bg-gradient-to-r from-gray-100 to-gray-300 bg-clip-text text-transparent font-light">

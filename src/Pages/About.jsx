@@ -118,15 +118,15 @@ const AboutPage = () => {
     const storedProjects = JSON.parse(localStorage.getItem("projects") || "[]");
     const storedCertificates = JSON.parse(localStorage.getItem("certificates") || "[]");
     
-    const startDate = new Date("2021-11-06");
+    const startDate = new Date("2024-07-15");
     const today = new Date();
-    const experience = today.getFullYear() - startDate.getFullYear() -
-      (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
-
+    const diffInMs = today - startDate;
+    const floatExperience = diffInMs / (1000 * 60 * 60 * 24 * 365.25); // includes leap year handling
+  
     return {
-      totalProjects: storedProjects.length,
-      totalCertificates: storedCertificates.length,
-      YearExperience: experience
+      totalProjects: 5,
+      totalCertificates: 0,
+      YearExperience: floatExperience.toFixed(1)
     };
   }, []);
 

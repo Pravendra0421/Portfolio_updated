@@ -13,7 +13,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/ekizr/",
+    url: "https://www.linkedin.com/in/pravendra-jain-780170314/",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
@@ -32,7 +32,7 @@ const socialLinks = [
     displayName: "Youtube",
     subText: "@pravendra",
     icon: Youtube,
-    url: "https://www.youtube.com/@eki_zulfar",
+    url: "",
     color: "#FF0000",
     gradient: "from-[#FF0000] to-[#CC0000]"
   },
@@ -41,7 +41,7 @@ const socialLinks = [
     displayName: "Github",
     subText: "@pravendra",
     icon: Github,
-    url: "https://github.com/EkiZR",
+    url: "https://github.com/Pravendra0421",
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]"
   },
